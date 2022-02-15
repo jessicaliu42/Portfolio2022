@@ -165,14 +165,23 @@ section h1{
     text-align: center;
     max-width: 960px;
 }
-.container{
-   
-}
 .frontendworklist h4{
     padding: 15px;
+    color: white;
+}
+.frontendworklist h2{
+    color:white;
 }
 .work{
     background-color: #401404;
+}
+.work h4{
+    color:white;
+}
+.work h2{
+    color:white;
+}
+.work h1{
     color: white;
 }
 .resume{
