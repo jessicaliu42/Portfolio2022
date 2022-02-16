@@ -7,7 +7,6 @@ body{
 }
 .header nav ul li{
     margin: 30px 50px 0px 50px;
-    /* text-align: center; */
    
 }
 .header nav ul li a{
@@ -277,13 +276,7 @@ section h1{
 .contact h3{
     text-align: center;
 }
-form{
-    width: 50%;
-    position: absolute;
-}
-label{
-    padding: 10px;
-}
+
 .contactintro{
     padding: 0px 350px 30px 350px;
     display: grid;
