@@ -267,21 +267,15 @@ section h1{
 .contact{
     background-color: #15453C;
     color: white;
-    /* height: 90vh; */
 }
 .contactContent{
-    /* padding-left: 350px; */
     text-align: center;
 }
 .contact h3{
     text-align: center;
 }
-
-.contactintro{
-    padding: 0px 350px 30px 350px;
-    display: grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows: 1fr;
+.containerInside{
+    max-width: 850px;
 }
 .contactintro svg{
    margin: 5px;
@@ -298,14 +292,17 @@ section h1{
         position: absolute;
     }
     .header nav{
-        /* background-color: black !important; */
-        
+        background-color: #15453C !important;
     }
     .header nav ul li {
-        text-align: end;
+        margin: 10px 50px 10px 50px;
+        text-align: center;
     }
     .aboutme{
         height: 100%;
+    }
+    main{
+        padding-top: 60%;
     }
     .scrolla{
         position: absolute;
@@ -328,23 +325,17 @@ section h1{
         padding: 0px;
       }
     .aboutmeContent{
-        /* padding-left: 350px; */
-      display: grid;
       padding: 50px;
-        grid-template-columns:1fr;
-        grid-template-rows: 1fr 1fr 200px 50px;
-        grid-template-areas: 
-        "img"
-        "intro"
-        "skills"
-        "socialmedia";
-        /* column-gap: 80px; */
     }
     .intropra{
         width: 100%;
     }
     .intro{
         width:100%;
+    }
+    .card{
+        margin: 35px;
+        width: 85% !important;
     }
     .meimage{
         grid-area: img;
@@ -355,19 +346,14 @@ section h1{
         margin: 0;
         padding: 0;
     }
-    .work{
-        height: 100%;
-    }
     .resume{
-        height: 100%;
         padding:0px;
     }
     .resumeContent{
-        /* padding-left: 350px; */
         padding: 50px;
         display: grid;
         grid-template-columns:1fr;
-        grid-template-rows: 1fr 1fr 70px;
+        grid-template-rows: 1fr 40% 70px;
         grid-template-areas: 
         "img2"
         "resumeintro"
@@ -376,29 +362,9 @@ section h1{
     }
     .resumeintro{
         width: 100%;
+        padding-top:0px;
     }
     .resumebutton{
-        width: 100%;
-    }
-    .contactContent{
-        display: grid;
-        grid-template-columns:1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: 
-        "form"
-        "contactinfo"
-    }
-    .contactform{
-        grid-area: form;
-        position: relative;
-    }
-    form{
-        width: 100%;
-        position: relative;
-    }
-    .contactintro {
-        grid-area: contactinfo;
-        position: relative;
         width: 100%;
     }
 }
