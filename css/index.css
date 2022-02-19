@@ -202,6 +202,13 @@ section h1{
 .roadmap.roadmap--orientation-auto .roadmap__events__event:after{
     background-color:#43D9BD !important;
 }
+
+.roadmap.roadmap--orientation-auto {
+    position: relative;
+    width: 70% !important;
+    margin: 0 auto;
+}
+
 .resumeintro{
     padding-top:50px;
     padding-bottom: 50px;
@@ -264,6 +271,9 @@ section h1{
     z-index: 1;
     position: relative;
   }
+
+
+
 .contact{
     background-color: #15453C;
     color: white;

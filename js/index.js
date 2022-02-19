@@ -91,6 +91,11 @@ $(document).ready(function () {
                   content: 'graduated with a certication in UX/UI from Georgia Tech'
                 }
             ];
-            $('#my-timeline').roadmap(myEvents);
+            $('#my-timeline').roadmap(myEvents,{
+              eventsPerSlide: 5,
+              slide: 1,
+              rootClass: 'roadmap',
+              orientation: 'auto',
+            });
 
 });
