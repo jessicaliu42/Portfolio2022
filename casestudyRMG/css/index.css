@@ -30,7 +30,9 @@ body{
     color: #F2B705;
 }
 .logo{
-    width:110px;
+    width: 110px;
+    position: relative;
+    top: -40px;
 }
 .cover{
     background-image: url(../asset/photo-1507925921958-8a62f3d1a50d.jpg);
@@ -130,6 +132,11 @@ section img{
     .header nav ul li {
         margin: 10px 50px 10px 50px;
         text-align: center;
+    }
+    .logo{
+        width: 110px;
+        position: relative;
+        top: 12px;
     }
     .mainContant{
        text-align: center;
