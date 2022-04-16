@@ -6,11 +6,13 @@ body{
     background-color: transparent !important;
 }
 .header nav ul li{
-    margin: 30px 50px 0px 50px;
+    margin: 30px 10px 0px 50px;
 }
 
 .logo{
-    width:110px;
+    width: 110px;
+    position: relative;
+    top: -40px;
 }
 .header nav ul li a{
     text-decoration: none;
@@ -306,6 +308,7 @@ section h1{
 }
 
 @media screen and (max-width: 600px) {
+    
     .header{
         position: absolute;
     }
@@ -315,6 +318,11 @@ section h1{
     .header nav ul li {
         margin: 10px 50px 10px 50px;
         text-align: center;
+    }
+    .logo{
+        width: 110px;
+        position: relative;
+        top: 12px;
     }
     .aboutme{
         height: 100%;
