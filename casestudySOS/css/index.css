@@ -13,11 +13,11 @@ body{
 }
 .header nav ul li{
     margin: 30px 50px 0px 50px;
-    border-bottom: .25rem solid #43D9BD;
+    border-bottom: .25rem solid #45C8FF;
 }
 .header nav ul li a{
     text-decoration: none;
-    color: #43D9BD;
+    color: #45C8FF;
     font-weight: 900;
     cursor: pointer;
 } 
@@ -56,7 +56,7 @@ main{
 
 .title{
     background-color: transparent;
-    color: #43D9BD;
+    color: #45C8FF;
 }
 .mainContant{
     text-align: left;
@@ -90,13 +90,13 @@ section h1{
     text-align: center;
     font-weight: 900;
     font-size: 40px;
-    background-color: #15453C;
+    background-color: #174356;
     width: 100%;
     padding: 40px;
     color: white;
 }
 .contact{
-    background-color: #15453C;
+    background-color: #174356;
     color: white;
 }
 .contactContent{
@@ -128,7 +128,7 @@ section img{
         position: absolute;
     } 
     .header nav{
-        background-color: #15453C !important;
+        background-color: #174356 !important;
     }
     .header nav ul li {
         margin: 10px 50px 10px 50px;
@@ -136,5 +136,10 @@ section img{
     }
     .mainContant{
        text-align: center;
+    }
+    .logo{
+        width: 110px;
+        position: relative;
+        top: 10px;
     }
 }
