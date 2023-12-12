@@ -89,6 +89,10 @@ $(document).ready(function () {
                 {
                   date: '2021-2022',
                   content: 'graduated with a certication in UX/UI from Georgia Tech'
+                },
+                {
+                  date: '2022-2023',
+                  content: 'Be a TA and a code coach for Kids'
                 }
             ];
             $('#my-timeline').roadmap(myEvents,{

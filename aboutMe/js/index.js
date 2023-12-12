@@ -73,9 +73,6 @@ $(document).ready(function () {
 
 
                 var myEvents = [{
-                  date: '2009-2012',
-                  content: 'graduated with a Bachelor of Arts in Animation from Savannah College of Art and Design'
-                },{
                   date: '2014-2018',
                   content: 'worked as a front-end eingineer at CommonWealth Magazine Group in Taiwan'
                 },{
@@ -89,8 +86,17 @@ $(document).ready(function () {
                 {
                   date: '2021-2022',
                   content: 'graduated with a certication in UX/UI from Georgia Tech'
+                },
+                {
+                  date: '2022-2023',
+                  content: 'Be a TA for UX/UI and a code coach for Kids'
                 }
             ];
-            $('#my-timeline').roadmap(myEvents);
+            $('#my-timeline').roadmap(myEvents,{
+              eventsPerSlide: 5,
+              slide: 1,
+              rootClass: 'roadmap',
+              orientation: 'auto',
+            });
 
 });
